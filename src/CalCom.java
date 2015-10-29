@@ -12,9 +12,9 @@ public class CalCom {
 	}
 	
 	public double getCom(){
-		if(sales > 50000){
+		if(sales > 100000){
 			Commission = sales*0.03;
-		}else if(sales > 25000){
+		}else if(sales > 50000){
 			Commission = sales*0.02;
 		}else{
 			Commission = sales*0.01;
