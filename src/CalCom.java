@@ -20,6 +20,9 @@ public class CalCom {
 			Commission = sales*0.01;
 		}
 		compensation = salary+Commission;
+		if(compensation < 18000){
+			compensation = 18000;
+		}
 		return compensation;
 	}
 }
