@@ -17,7 +17,7 @@ public class ProjectA {
 		
 		CalCom cc = new CalCom(salary,sales);
 		OutCom oc = new OutCom(name, cc.getCom());
-
+		oc.getOutCom();
 	}
 
 }
